@@ -1,0 +1,14 @@
+ul{
+    list-style-type: square;
+}
+.ip{
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    padding: 5px;
+    margin: 10px;
+    line-height: 30px;
+    text-align: justify;
+    /* overflow: scroll; */
+    overflow: auto;
+}

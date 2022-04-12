@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+body{
+    padding: 1.25em;
+    font-family: poppins;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  border-spacing: 0px;
+  overflow: hidden;
+}
+th {
+  background-color: #215a8e;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 1em;
+}
+td {
+  padding: 1em;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
